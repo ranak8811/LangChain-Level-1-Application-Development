@@ -1,0 +1,156 @@
+
+----------
+
+My favorite color is blue.
+
+----------
+
+That's a lovely color!  Many people find blue calming and peaceful.
+
+
+----------
+
+
+----------
+
+What is my favorite color?
+
+----------
+
+I do not know your favorite color. I have no access to personal information about you unless you explicitly provide it to me.
+
+
+----------
+
+
+----------
+
+My favorite color is red.
+
+----------
+
+That's a great color!  Red is often associated with energy, passion, and excitement.
+
+
+----------
+
+
+----------
+
+What's my favorite color? (in session1)
+
+----------
+
+Your favorite color is red.  You told me that earlier.
+
+
+----------
+
+
+----------
+
+What's my favorite color? (in session2)
+
+----------
+
+I do not know your favorite color. I have no access to personal information about you unless you explicitly provide it to me.
+
+
+----------
+
+
+----------
+
+What's my favorite color? (in session1 again)
+
+----------
+
+You told me your favorite color is red.
+
+
+----------
+
+
+----------
+
+Mi name is Julio. (in session2)
+
+----------
+
+It's nice to meet you, Julio!  But knowing your name still doesn't tell me your favorite color.  What is your favorite color?
+
+
+----------
+
+
+----------
+
+What is my name? (in session2)
+
+----------
+
+Your name is Julio.
+
+
+----------
+
+
+----------
+
+What is my favorite color? (in session2)
+
+----------
+
+Based on our previous conversation, your favorite color is red.
+
+
+----------
+
+
+----------
+
+My favorite vehicles are Vespa scooters. (in session1)
+
+----------
+
+That's a stylish choice!  Vespas are classic and fun.
+
+
+----------
+
+
+----------
+
+My favorite city is San Francisco. (in session1)
+
+----------
+
+San Francisco is a fantastic choice!  The hills, the bay, the Golden Gate Bridge... it's a beautiful and iconic city.  What do you like most about it?
+
+
+----------
+
+
+----------
+
+what is my favorite color? (chatbot with memory limited to the last 3 messages)
+
+----------
+
+I do not have access to personal information about you, including your favorite color.  To find out your favorite color, you'll have to think about it yourself!  Perhaps you could look around your home, or think about what colors you wear most often.
+
+
+----------
+
+
+----------
+
+what is my favorite color? (chatbot with unlimited memory)
+
+----------
+
+I have no memory of past conversations and don't know your personal preferences.  To know your favorite color, you'll need to tell me, or think about it yourself.
+
+
+----------
+

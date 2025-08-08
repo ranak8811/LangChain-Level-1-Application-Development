@@ -1,0 +1,33 @@
+
+----------
+
+Key data extraction (single person):
+
+----------
+
+{'name': 'Sarah Johnson', 'lastname': 'Johnson', 'country': 'USA'}
+
+----------
+
+
+----------
+
+Key data extraction of a list of entities (single comment):
+
+----------
+
+{'people': [{'name': 'Emily Clarke', 'lastname': 'Clarke', 'country': 'Canada'}]}
+
+----------
+
+
+----------
+
+Key data extraction of a review with several users:
+
+----------
+
+{'people': [{'name': 'Alice Johnson', 'lastname': 'Johnson', 'country': 'Canada'}, {'name': 'Bob Smith', 'lastname': 'Smith', 'country': 'USA'}]}
+
+----------
+

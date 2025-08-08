@@ -1,0 +1,55 @@
+
+----------
+
+Search for John in the vector database:
+
+----------
+
+[Document(id='6d37492d-31b7-497c-b537-ed52512a7b77', metadata={'source': 'us-presidents-doc'}, page_content='John F. Kennedy served as the 35th president of the United States from 1961 until his assassination in 1963.'), Document(id='d9de8f9d-d854-406f-8b92-76e82523a510', metadata={'source': 'us-politics-doc'}, page_content='Robert F. Kennedy was a key political figure and served as the U.S. Attorney General; he was also assassinated in 1968.'), Document(id='f355ce3f-ce15-4579-a86c-9288cfeb1fdc', metadata={'source': 'first-lady-doc'}, page_content='Jacqueline Kennedy Onassis, wife of John F. Kennedy, was an iconic First Lady known for her style, poise, and dedication to cultural and historical preservation.'), Document(id='1d727ce7-74df-4d76-8dcf-3a4402b48f22', metadata={'source': 'kennedy-family-doc'}, page_content='The Kennedy family is known for their significant influence in American politics and their extensive philanthropic efforts.')]
+
+----------
+
+
+----------
+
+Search for John in the vector database (with scores):
+
+----------
+
+[(Document(id='6d37492d-31b7-497c-b537-ed52512a7b77', metadata={'source': 'us-presidents-doc'}, page_content='John F. Kennedy served as the 35th president of the United States from 1961 until his assassination in 1963.'), 0.797583818435669), (Document(id='d9de8f9d-d854-406f-8b92-76e82523a510', metadata={'source': 'us-politics-doc'}, page_content='Robert F. Kennedy was a key political figure and served as the U.S. Attorney General; he was also assassinated in 1968.'), 0.888439416885376), (Document(id='f355ce3f-ce15-4579-a86c-9288cfeb1fdc', metadata={'source': 'first-lady-doc'}, page_content='Jacqueline Kennedy Onassis, wife of John F. Kennedy, was an iconic First Lady known for her style, poise, and dedication to cultural and historical preservation.'), 0.9468792676925659), (Document(id='1d727ce7-74df-4d76-8dcf-3a4402b48f22', metadata={'source': 'kennedy-family-doc'}, page_content='The Kennedy family is known for their significant influence in American politics and their extensive philanthropic efforts.'), 0.9504251480102539)]
+
+----------
+
+
+----------
+
+Search for John and Robert in the vector database (with vectorstore as retriever):
+
+----------
+
+[[Document(id='6d37492d-31b7-497c-b537-ed52512a7b77', metadata={'source': 'us-presidents-doc'}, page_content='John F. Kennedy served as the 35th president of the United States from 1961 until his assassination in 1963.')], [Document(id='d9de8f9d-d854-406f-8b92-76e82523a510', metadata={'source': 'us-politics-doc'}, page_content='Robert F. Kennedy was a key political figure and served as the U.S. Attorney General; he was also assassinated in 1968.')]]
+
+----------
+
+
+----------
+
+Search for John and Robert in the vector database (select top result):
+
+----------
+
+[[Document(id='6d37492d-31b7-497c-b537-ed52512a7b77', metadata={'source': 'us-presidents-doc'}, page_content='John F. Kennedy served as the 35th president of the United States from 1961 until his assassination in 1963.')], [Document(id='d9de8f9d-d854-406f-8b92-76e82523a510', metadata={'source': 'us-politics-doc'}, page_content='Robert F. Kennedy was a key political figure and served as the U.S. Attorney General; he was also assassinated in 1968.')]]
+
+----------
+
+
+----------
+
+tell me about Jackie (simple retriever):
+
+----------
+
+Jacqueline Kennedy Onassis, wife of John F. Kennedy, was an iconic First Lady known for her style, poise, and dedication to cultural and historical preservation.
+
+----------
+
