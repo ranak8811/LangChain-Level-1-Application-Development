@@ -38,8 +38,8 @@ Follow these steps to set up your local development environment:
 1.  **Clone the repository (if you haven't already):**
 
     ```bash
-    git clone <repository-url>
-    cd <repository-name>
+    git clone https://github.com/ranak8811/LangChain-Level-1-Application-Development.git
+    cd LangChain-Level-1-Application-Development
     ```
 
     (Note: If you are already in the project directory, you can skip this step.)
